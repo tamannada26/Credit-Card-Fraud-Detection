@@ -21,7 +21,7 @@ In the complex field of credit card fraud, identifying fraud patterns is crucial
 The dataset used for this project is the Credit Card Fraud Detection dataset, available on Kaggle. It includes anonymized transaction data with 492 fraudulent transactions out of 284,807 total transactions. Key characteristics:
 
 - **Class Imbalance:** Fraudulent transactions make up only 0.172% of the total.
-- **Features:** The dataset includes 28 anonymized transaction features, a "Time" column, and the transaction amount.
+- **Features:** The dataset includes 28 anonymized transaction features, a "Time" column,id column,transaction amount and class.
 # **Data Preprocessing**
 A series of data cleaning and preprocessing steps were applied to ensure the model performs accurately:
 
@@ -33,9 +33,9 @@ A series of data cleaning and preprocessing steps were applied to ensure the mod
 # **Machine Learning Model**
 The model employs Logistic Regression due to its interpretability and efficiency for binary classification. To improve the model's performance, Random Search Cross-Validation was used for hyperparameter tuning. Key aspects of the modeling process:
 
-**Pipeline Integration:** A pipeline was used to ensure seamless data preprocessing and training steps.
-**Hyperparameter Tuning:** Optimized the model by tuning parameters like the regularization term.
-**Subset Sampling:** Used a subset of the data during tuning for computational efficiency.
+- **Pipeline Integration:** A pipeline was used to ensure seamless data preprocessing and training steps.
+- **Hyperparameter Tuning:** Optimized the model by tuning parameters like the regularization term.
+- **Subset Sampling:** Used a subset of the data during tuning for computational efficiency.
 
 # **Evaluation Metrics**
 The model's effectiveness was evaluated using several metrics:
@@ -55,10 +55,9 @@ The model's effectiveness was evaluated using several metrics:
  # Conclusion
 This project demonstrates an effective approach for credit card fraud detection using Logistic Regression. The tuned model balances sensitivity and generalization, making it robust for real-world scenarios. This solution showcases how machine learning can support financial institutions in improving fraud detection, enhancing security, and reducing financial risks.
 
-# How to Use**
+# How to Use
 **Clone the Repository:**
-bash
-Copy code
+
 git clone https://github.com/tamannada26/CreditCardFraudDetection.git
 
 - **Run the Code:** Follow the provided Jupyter notebooks or scripts to preprocess the data, train the model, and evaluate its performance.
