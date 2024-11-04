@@ -58,7 +58,7 @@ This project demonstrates an effective approach for credit card fraud detection 
 # How to Use
 **Clone the Repository:**
 
-git clone https://github.com/tamannada26/CreditCardFraudDetection.git
+git clone https://github.com/tamannada26/Credit-Card-Fraud-Detection
 
 - **Run the Code:** Follow the provided Jupyter notebooks or scripts to preprocess the data, train the model, and evaluate its performance.
 - **Dependencies:** Ensure PySpark, Pandas, Scikit-learn, and other dependencies are installed.
